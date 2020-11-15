@@ -1,4 +1,4 @@
-# Exo-44-CSS-Menu-deroulant
+# Exo-45-CSS-Menu-deroulant
 
     1. Copiez les fichiers du menu que vous avez réalisé dans l'exo précédent.
     2. A l'aide d'une animation et de la pseudo classe hover, réalisez pour 
