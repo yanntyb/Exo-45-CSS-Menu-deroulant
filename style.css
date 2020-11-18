@@ -1,0 +1,39 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.menu {
+    position: fixed;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    background-color: indianred;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.menu1 {
+    background-color: indianred;
+    width: 50px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.sousMenu {
+    display: inline-block;
+    padding: 0 100px 100px;
+}
+
+.menu .sousMenu :not(.titre){
+    display: none;
+}
+
+.sousMenu:hover .menu1{
+    display: table;
+    overflow: hidden;
+    padding-top: 10px;
+}
