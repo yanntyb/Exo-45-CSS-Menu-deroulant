@@ -11,13 +11,16 @@ html {
     left: 0;
     height: 50px;
     width: 100vw;
-    background-color: indianred;
+    background-color: darkkhaki;
+    opacity: 0.7;
     padding-top: 20px;
     text-align: center;
+    color: honeydew;
+    box-shadow: 0px 1px 16px 14px rgba(0,0,0,0.6);
 }
 
 .menu1 {
-    background-color: indianred;
+    background-color: black;
     width: 50px;
     vertical-align: top;
     text-align: center;
@@ -29,6 +32,15 @@ html {
 }
 
 .menu .sousMenu :not(.titre){
+    transition: color;
+    transition-duration: 1s;
+}
+
+.menu .sousMenu:hover :not(.titre){
+    color: darkorange;
+}
+
+.menu .sousMenu :not(.titre){
     display: none;
 }
 
@@ -36,4 +48,9 @@ html {
     display: table;
     overflow: hidden;
     padding-top: 10px;
+    box-shadow: 0 17px 12px 6px rgba(0,0,0,0.5);
+}
+
+.sousMenu:hover :nth-child(2){
+    margin-top: 30px;
 }
