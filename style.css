@@ -41,6 +41,8 @@ html {
 
 .menu .sousMenu:hover :not(.titre){
     color: darkorange;
+    box-shadow: 0 17px 12px 6px rgba(0,0,0,0.5);
+
 }
 
 .menu .sousMenu :not(.titre){
@@ -50,10 +52,9 @@ html {
 .sousMenu:hover .menu1{
     display: table;
     padding-top: 10px;
-    box-shadow: 0 17px 12px 6px rgba(0,0,0,0.5);
     width: 100px;
 }
 
 .sousMenu:hover :nth-child(2){
-    margin-top: 30px;
+    margin-top: 32px;
 }
